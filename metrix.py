@@ -23,13 +23,6 @@ def calculate_average_waveform():
 # librosa.display.waveplot(average_data)
 # plt.show()
 def save_waveform(audio_dir="audio/audio_data", image_dir="audio_waveform_images"):
-    """Saves waveforms of WAV files as images.
-
-    Args:
-        audio_dir (str, optional): Directory containing the WAV files. Defaults to "audio/audio_data".
-        image_dir (str, optional): Directory to save the generated images. Defaults to "imgs".
-    """
-
     # Create the image directory if it doesn't exist
     os.makedirs(image_dir, exist_ok=True)
 
