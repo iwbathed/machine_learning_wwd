@@ -86,7 +86,7 @@ def save_waveform(audio_path="audio/audio_data/", path_to_save_images="bg_wavefo
 # save_waveform("audio/background_sound/", "bg_waveform_images/")
 
 # filename = f"{audio_path}{file_number}.wav"
-data, _ = librosa.load(r"D:\programing\my_projects\python\bachelor\speech_recognition\wake_word_detection\audio\background_sound\1-all-quiet-on-the-western-front-2022-web-dlrip-avc-ukrger-sub-ukreng-hurtom_part_89.mp3")
+data, _ = librosa.load(r"D:\programing\my_projects\python\speech_recognition\wake_word_detection\audio\background_sound\1-all-quiet-on-the-western-front-2022-web-dlrip-avc-ukrger-sub-ukreng-hurtom_part_89.mp3")
 librosa.display.waveplot(data)
 # plt.title(f"{file_number}")
 plt.savefig(f"bg_waveform_images/q.png", dpi=300, bbox_inches="tight")
